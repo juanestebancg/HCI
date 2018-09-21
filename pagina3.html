@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel = "stylesheet" type = "text/css" href = "estilos.css"
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Grafo <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Recorrido</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<br>
+
+<div class = "container">
+	<div class = "row">
+		<div class ="col-md-3"> </div>
+			<div class = "col-md-8" > 
+				<h1> Los grafos: arboles y grafos </h1>
+			</div>
+		<div class= "col-md-3"> </div>
+	
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-sm">
+			<div class = "crop">
+			   <img class = "image-profile" src="http://163.10.22.82/OAS/estructuras_de_grafos/grafoConexo.1.png">
+			</div>
+			
+		<h3> <br> Un árbol es un grafo simple no dirigido G que satisface:
+		</h3>
+		<p> Un árbol es un grafo simple no dirigido G que satisface:
+
+			G es conexo y no tiene ciclos .
+			G no tiene ciclos y, si se añade alguna arista se forma un ciclo.
+			G es conexo y si se le quita alguna arista deja de ser conexo.
+			G es conexo y el grafo completo de 3 vértices K 3  no es un menor de G.
+			Dos vértices cualquiera de G están conectados por un único camino simple. </p>
+
+		<p> <br> esto es un tutorial de <a class="badge badge-primary" href="https://www.youtube.com/watch?v=QnWDU1wcsPA">toposort</a> con el mejor toposort </p>
+		</p>
+
+
+		</div>
+		<div class="col-sm">
+			<p> jaja xd aca hay mas arbolitos y grafos</p>
+			<select class="custom-select" id="inputGroupSelect01" > <option value="arbol rojo y negro">rojo y negro
+			</option>
+				<option value="grafo dirigido">grafo dirigido</option>
+			</select>
+
+
+			<p> <br>  </p>
+
+
+
+			<table class="table">
+			  <thead class="thead-light">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">Grafo</th>
+				  <th scope="col">Recorrido</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>Dirigido</td>
+				  <td>bfs</td>
+				  <td>O(v+e)</td>
+				</tr>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>No Dirigido</td>
+				  <td>dfs</td>
+				  <td>O(v+e)</td>
+				</tr>
+				
+			  </tbody>
+			</table>
+			
+			<h4> Aca hay mas info</h4>
+			<ul>
+			  <li>hijo</li>
+			  <li>padre</li>
+			  <li>nodo</li>
+			</ul>
+
+			<h4>Aca hay otrica</h4>
+			<ol>
+			  <li>back-edge</li>
+			  <li>u,v</li>
+			  <li>u.min</li>
+			</ol>
+			
+			<p> <br> <br> <br>  </p>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
